@@ -1,5 +1,7 @@
 # RansomGame
 RansomGame is an educational and interactive cybersecurity game designed to challenge your knowledge, critical thinking, and decision-making skills. By combining quizzes, mini-games, and a ransomware simulation, RansomGame offers a unique way to learn about cybersecurity concepts in a high-stakes environment.
+
+
 🌟 Features
 1. Choose Your Path
 
@@ -36,4 +38,12 @@ RansomGame simulates the consequences of a ransomware attack. Repeated mistakes 
 🔑 Decryption Mechanism
 
 At the end of the game, use the points you’ve accumulated to decrypt your files. This feature reinforces the consequences of mistakes while rewarding careful decision-making and timely responses.
+
+🤝 Meet the Team
+
+    Elkhan Seyidov: Developed the ransomware simulation.
+    Elmar Jafarzade & Markaz Gasimov: Developed the quiz functionality.
+    Elvin Madatov & Sarfi Habibova: Coded the mini Python games and handled troubleshooting.
+    Shabnam Abbasova: Wrote the quiz questions.
+    
 
