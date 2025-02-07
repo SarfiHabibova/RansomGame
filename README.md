@@ -1,18 +1,15 @@
 # RansomGame
-RansomGame is an interactive and amusing game designed to simulate real-world ransomware scenarios while making learning cybersecurity practices engaging and enjoyable. The game is structured as follows:
-
-- Levels and Gameplay
-  - The game consists of four levels, each with progressively challenging questions. Level 1 contains simpler questions, while Level 4 features complex, scenario-based questions that test critical thinking.
-  - At each level, users face a set of five questions. Mistakes are penalized, with increasing severity as the levels progress. For example, making three mistakes in Level 1 encrypts the user’s pictures, while two mistakes in Level 4 encrypts desktop files.
-
-- Pointing System
-  - The scoring mechanism is time-sensitive, similar to Kahoot’s pointing system. Faster responses yield higher points. For instance, answering a question with 30 seconds left on the timer earns more points than answering with only 10 seconds remaining.
-
-- Mini-Games
-  - Each level concludes with a mini-game designed in Python, offering users an opportunity to earn bonus points while enjoying additional interactive activities. These mini games range from solving puzzles to quick reflex challenges.
-
-- File Encryption Simulation
-  - To simulate the real impact of ransomware, the game temporarily encrypts specific folders (e.g., pictures, downloads, documents, or desktop files) upon repeated mistakes. However, users can redeem their accumulated points to decrypt these files at the end of the game.
-
-- Decryption Mechanism
-  - In RansomGame, encrypted files are not automatically decrypted within the game. To restore your files, you’ll need to visit bambooc.org. On the website, you can download a file containing the decryption key. Once you use this key, all your encrypted files will be unlocked. This approach enhances the game’s realism while ensuring your files remain safe and fully recoverable.
+RansomGame consists of 4 levels, each designed to progressively challenge the user’s knowledge of cybersecurity concepts. Upon launching the game, users are presented with a choice of three paths: Red, Blue, or Essentials. This selection determines the thematic focus of the quiz questions. As users advance through the levels, the difficulty of the questions increases significantly to test their critical thinking and decision-making skills.
+To maintain engagement, the game features mini games between each level. These mini games serve two purposes: providing entertainment and allowing players to earn additional points.
+Penalty System
+RansomGame simulates the consequences of ransomware attacks by encrypting user files upon repeated mistakes. The penalties for mistakes are as follows:
+•	Level 1: Making three mistakes encrypts the user’s Pictures folder.
+•	Level 2: Making three mistakes encrypts the user’s Documents folder.
+•	Level 3: Making two mistakes encrypts the user’s Downloads folder.
+•	Level 4: Making two mistakes encrypts the user’s Desktop files.
+This progression emphasizes the importance of careful decision-making as users move through the game.
+Scoring System
+The scoring mechanism in RansomGame is time-sensitive, mirroring systems like Kahoot’s. Faster responses yield higher points. For example, answering a question with 30 seconds left on the timer earns significantly more points than answering with only 10 seconds remaining. In addition to quiz performance, the mini games provide opportunities to accumulate bonus points.
+Decryption Mechanism
+At the conclusion of the game, players can use the points they have earned to decrypt their files. This feature not only restores the encrypted data but also reinforces the consequences of mistakes while rewarding careful gameplay and timely responses.
+By combining educational content with interactive gameplay, RansomGame offers a unique and engaging way for users to learn about cybersecurity while experiencing a simulated ransomware scenario.
